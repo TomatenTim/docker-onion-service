@@ -1,0 +1,4 @@
+# https://community.torproject.org/onion-services/setup/
+
+HiddenServiceDir /keys/my_website/
+HiddenServicePort 80 127.0.0.1:80
