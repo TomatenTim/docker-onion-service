@@ -4,5 +4,5 @@ services:
     container_name: tor
     # restart: unless-stopped
     volumes:
-      - ./tor/config:/config      # For torrc
-      - ./tor/keys:/keys   # For HiddenServiceDirs and DataDirectory
+      - ./tor/config:/config # For torrc
+      - ./tor/keys:/keys     # For HiddenServiceDirs and DataDirectory
